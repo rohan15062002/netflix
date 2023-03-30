@@ -1,0 +1,214 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    letter-spacing: 0!important;
+}
+body{
+    width: 100%;
+    height: 100%;
+    color: white;
+    background: black;
+    font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
+    
+}
+
+.container::before{
+    content:"";
+    background: url(images/Background.jpeg) no-repeat center center/cover;
+
+    position: absolute;
+    height: 100%;
+    width: 100%;
+   opacity: 0.4;
+   z-index: -1;
+
+}
+.logo img{
+    width: 10rem;
+    height: auto;
+    margin-left: 56px;
+  
+}
+section{
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    background:transparent;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+    
+
+
+}
+.form-container{
+    position: absolute;
+    top: 40%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    background: rgba(8, 8, 0, 0.73);
+   
+    opacity: 10;
+    width: 500px;
+    padding: 50px;
+    border-radius: 10px;
+   
+
+
+
+}
+h1{
+ 
+    color: aliceblue;
+    font-size: 2em;
+   
+    margin-bottom: 1em;
+
+}
+.link p{
+    color: rgb(124, 115, 115);
+    
+    font-size: medium;
+    float: left;
+    padding-top: 3rem;
+}
+.control input{
+    width: 100%;
+   
+  font-size: medium;
+    display: block;
+    padding: 15px;
+    color: #000;
+    background: rgb(70, 65, 65);
+    border-radius: 5px;
+    border:none;
+    outline: none;
+    
+    margin: .8em 0;
+
+}
+
+.control input[type="submit"]{
+    background:rgb(246, 12, 12);
+    color: white;
+    
+    font-size : 1.2em ;
+    opacity: .8;
+    transition: opacity .3s ease;
+
+}
+.control input[type="submit"]:hover{
+    opacity: 3;
+}
+.link{
+    text-align: center;
+     margin-bottom: 1em;
+}
+.link a{
+    text-decoration: none;
+    color: white;
+  
+    transition: opacity .3s ease;
+
+
+}
+.link a:hover{
+    color:rgb(246, 12, 12);
+
+}
+span{
+    color:rgb(167, 153, 153); 
+    font-size:smaller;
+   
+}
+.link1{
+ color: gray;
+ font-size: small;
+ float: left;
+ padding-top: 1rem;
+}
+.faq{
+    text-align: center;   
+}
+
+.faq h1{
+    padding-bottom: 40px;
+    font-size: 3rem;
+}
+
+.questions{
+    display: flex;
+    flex-direction: column;
+    flex-basis: 40%;
+    align-items: center;
+}
+
+.questions li{
+    padding: 20px 30px;
+    margin: 5px;
+    font-size: 1.6rem;
+    background-color: #303030;
+    color: white;
+    text-align: left;
+    width: 50%;
+    list-style: none;
+}
+
+.faq p{
+    padding-top: 60px;
+    font-size: 1.2rem;
+    font-weight: 200;
+}
+.footer {
+  
+    padding-top: 2rem;
+    padding-bottom: 5rem;
+    
+   
+}
+.footer p{
+    color: gray;
+    padding-left: 8.2rem;
+    font-size: medium;
+}
+.footer-cols{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 3rem;
+    font-size: smaller;
+    line-height: 2.5em;
+    
+}
+.footer ul{
+    list-style: none;
+}
+.footer a{
+    color: gray;
+    text-decoration: none;
+}
+.last{
+    padding-left: 8rem;
+    
+}
+.last h3{
+    font-size: smaller;
+    color: gray;
+    padding-left:0.75rem;
+}
+select{
+    background: transparent;
+    color: white;
+   font-weight:bold;
+   font-size: 16px;
+   border-radius: 3px;
+   border: 1px solid white;
+    padding: 8px 15px;
+    margin:30px 12px;
+    
+   
+  
+}
+select option{
+    background-color:rgb(186, 183, 183);
+}
